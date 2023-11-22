@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.slinks{
+    margin: 10px;
+    
+}
