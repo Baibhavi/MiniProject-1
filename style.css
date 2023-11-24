@@ -74,21 +74,22 @@ nav a:hover{
 .game{
     margin: 0;
     padding: 0;
-    background-image: url("./NEON\ GLOW\ RESTAURANT.jpeg");
+    background-image: url("./download.jpeg");
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-size: cover;
 }
-.game h2{
+.title{
     margin: 0;
-    padding: 50px 20px;
+    padding: 80px 20px 40px 20px;
     height: 30px;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
-    color: #FFE5AD;
-    text-shadow: 2px 2px 4px #F9B208;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 2px 2px 3px #9e8ccf;
 }
 .cards{
     display: flex;
@@ -114,4 +115,69 @@ nav a:hover{
 .card img:hover{
     transform: scale(1.1);
     border-radius: 20px;
+}
+.about{
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(#040303, #081d3c);
+    /* #0B2447; */
+    color: whitesmoke;
+}
+
+.about p{
+    padding: 40px 140px;
+    text-align: justify;
+}
+.about h3{
+    margin: 0;
+    padding: 25px;
+    height: 20px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    text-align: center;
+}
+.teamCard{
+    padding: 30px 250px ;
+    display: flex;
+    flex-direction: row;
+}
+.myPic img{
+    padding: 20px 0;
+    height: 250px;
+}
+.myInfo{
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.myInfo h4{
+    padding: 0;
+}
+.myInfo i{
+    padding: 18px 0;
+    color: gray;
+}
+.myInfo p{
+    padding: 18px 0;
+}
+.myInfo a{
+    padding: 10px 10px 0 0;
+}
+.contact{
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(#040303, #3D0000);
+    background-size: cover;
+    color: whitesmoke;
+}
+.contact h4{
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.formContainer{
+    
 }
