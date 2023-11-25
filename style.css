@@ -118,20 +118,24 @@ nav a:hover{
 }
 .about{
     margin: 0;
-    min-height: 100vh;
+    height: 120vh;
     width: 100%;
     background: linear-gradient(#040303, #081d3c);
-    /* #0B2447; */
+    background-size: cover;
     color: whitesmoke;
 }
-
-.about p{
-    padding: 40px 140px;
+.shortExplain{
+    margin-top: 30px;
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+.aboutWebsite{
+    padding: 30px 100px;
+    position: relative;
     text-align: justify;
 }
 .about h3{
-    margin: 0;
-    padding: 25px;
+    margin: 30px;
     height: 20px;
     font-size: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -140,13 +144,15 @@ nav a:hover{
     text-align: center;
 }
 .teamCard{
-    padding: 30px 250px ;
+    position: absolute;
+    left: 9%;
+    right: 9%;
     display: flex;
     flex-direction: row;
 }
 .myPic img{
     padding: 20px 0;
-    height: 250px;
+    height: 200px;
 }
 .myInfo{
     padding-top: 20px;
@@ -167,8 +173,9 @@ nav a:hover{
 }
 .contact{
     margin: 0;
-    min-height: 100vh;
+    height: 130vh;
     width: 100%;
+    position: relative;
     background: linear-gradient(#040303, #3D0000);
     background-size: cover;
     color: whitesmoke;
@@ -178,6 +185,129 @@ nav a:hover{
     text-align: center;
     font-size: 20px;
 }
+.conCon{
+    margin: 30px;
+    width: 40%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    left: 29%;
+}
 .formContainer{
-    
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+}
+input[type=text], input[type=email], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.sbtn{
+    margin: 10px;
+    background-color: #040303;
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 1s;
+}
+.sbtn:hover{
+    background-color: #081d3c;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.footer{
+    height: 25vh;
+    width: 100%;
+    background: linear-gradient(#000000, #040D12);
+    background-size: cover;
+    color: whitesmoke;
+}
+.footer h5{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+.footer a{
+    color: whitesmoke;
+}
+.conLinks{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.conLinks a{
+    padding: 0 6px;
+}
+.copyright{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+}
+.copyright p{
+    padding: 0 2px;
+}
+
+@media screen and (max-width:810px) {
+    #enigma{
+        display: none;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .aboutWebsite{
+        display: none;
+    }
+    .myInfo p{
+        display: none;
+    }
+    .myPic img{
+        margin: 10px;
+        justify-content: center;
+        position: absolute;
+        left: 17%;
+        align-items: center;
+    }
+    .myInfo{
+        position: absolute;
+        top: 200px;
+    }
+    .teamCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+    .conCon{
+        width: 60%;
+        left: 10%;
+        right: 10%;
+    }
+}
+@media screen and (max-width:450px){
+    .options{
+        display: none;
+    }
+    .optnLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
 }

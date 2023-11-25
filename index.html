@@ -11,7 +11,7 @@
     <nav>
         <div class="gameName">
             <i class="fa-solid fa-puzzle-piece fa-beat fa-2xl" style="color: #c1aae4;"></i>
-            <h2>Enigma Games</h2>
+            <h2 id="enigma">Enigma Games</h2>
         </div>
         <ul class="optnLogo">
             <li>
@@ -40,7 +40,7 @@
                 <a href="#home">Home</a>
             </li>
             <li>
-                <a href="#games">Game</a>
+                <a href="#games">Games</a>
             </li>
             <li>
                 <a href="#about">About</a>
@@ -52,8 +52,9 @@
     </nav>
     <div class="intro" id="home">
         <img src="./introImage.jpg" alt="">
-        <h3>Welcome to NIRVANA</h3>
+        <h3 id="content">Welcome to NIRVANA</h3>
     </div>
+
     <div class="game" id="games">
         <h2 class="title">GAMES</h2>
         <div class="cards">
@@ -68,18 +69,24 @@
                 </a>
         </div>
     </div>
+
     <div class="about" id="about">
         <h2 class="title">ABOUT US</h2>
-        <p>Welcome to Enigma Games, a haven for cognitive adventurers! Born out of a personal passion for mental stimulation and a belief in the transformative power of brain games, Enigma Games is a small, specialized multi-gaming platform dedicated to elevating your cognitive experience.
-        Here at Enigma Games, I recognize the profound impact that engaging with brain games can have on individual cognitive abilities. My mission is to provide a thoughtfully curated collection of brain-training exercises, offering a seamless and enjoyable platform for users seeking to enhance memory, problem-solving skills, and overall mental acuity.
-        </p>
+        <div class="shortExplain">
+            <i>A plateform to improve cognitive skills !</i>
+        </div>
+        <div class="aboutWebsite">
+            <p>
+                Enigma Games: Your cognitive adventure hub! Passionately crafted for mental stimulation, we're a specialized multi-gaming platform dedicated to enhancing your cognitive prowess. Dive into our curated brain-training exercises for sharper memory, problem-solving, and overall mental acuity.
+            </p>
+        </div>
         <h3>Team</h3>
         <div class="teamCard">
             <div class="myPic"><img src="developerPic.jpg" alt=""></div>
             <div class="myInfo">
                 <h4>Baibhavi Pandey</h4>
-                <i>Developer & Designer</i>
-                <p>I invite you to embark on a personalized journey of cognitive exploration. No levels, no complex structures—just a straightforward space for you to dive into an array of brain games. Join me in creating a community focused on the joy of cognitive growth and discovery. Let Enigma Games be your companion in the pursuit of a sharper mind and a more vibrant intellectual experience.
+                <i>Developer & Designer</i><br>
+                <p>Embark on a personalized cognitive journey at Enigma Games—no levels, just straightforward brain games. Join our community for the joy of cognitive growth. Let Enigma Games be your companion for a sharper mind and vibrant intellectual experience.
                 </p>
                 <a href="mailto:baibhavipandey@gmail.com"><i class="fa-solid fa-envelope fa-lg" style="color: #e2e6ee;"></i></a>
                 <a href="https://www.linkedin.com/in/baibhavi-pandey-063a1a242/"><i class="fa-brands fa-linkedin fa-lg" style="color: #e4e7ec;"></i></a>
@@ -87,19 +94,41 @@
             </div>
         </div>
     </div>
+
     <div class="contact" id="contact">
         <h2 class="title">CONTACT US</h2>
-        <h4>Leave us a message</h4>
-        <div class="formConatiner">
-            <form action="index.html">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your Name...">
-                <label for="mail">Email</label>
-                <input type="email" id="mail" name="mail" placeholder="Your Email Id...">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message/query/suggestions here"></textarea>
-                <button class="sbtn">Submit</button>
-            </form>
+        <div class="conCon">
+            <h4>Leave us a message</h4>
+            <div class="formConatiner">
+                <form action="index.html">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name...">
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" name="mail" placeholder="Your Email Id...">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message/query/suggestions here"></textarea>
+                    <button class="sbtn">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h5><i>Powered by <a href="#home">Enigma Games</a></i></h5>
+        <div class="conLinks">
+            <a href="https://www.facebook.com/baibhavi.pandey.37">
+                <i class="fa-brands fa-facebook fa-xs" style="color: #9e8ccf;"></i>
+            </a>
+            <a href="https://instagram.com/baiiibhaviiiii?igshid=MmVlMjlkMTBhMg==">
+                <i class="fa-brands fa-instagram fa-xs" style="color: #9e8ccf;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/baibhavi-pandey-063a1a242/">
+                <i class="fa-brands fa-linkedin fa-xs" style="color: #9e8ccf;"></i>
+            </a>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-solid fa-copyright fa-2xs" style="color: whitesmoke;"></i></p>
+            <p>All rights reserved</p>
         </div>
     </div>
 
