@@ -428,7 +428,7 @@ input[type=text], input[type=email], select, textarea{
         display: none;
     }
     .optnLogo{
-        padding: 5px;
+        padding-left: 0;
         display: flex;
         justify-content: center;
         align-items: center;
